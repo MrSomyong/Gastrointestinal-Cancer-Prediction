@@ -1,7 +1,7 @@
 # Gastrointestinal-Cancer-Prediction
 AI Detect Cancer in GI system, Gastrointestinal system
 
-#Main Idea Gastrointestinal Cancer Prediction คือ อะไร
+# Main Idea Gastrointestinal Cancer Prediction คือ อะไร
 Input VDO and Retrive Image
 1. Extract Image from VDO. สามารถกำหนด Time ในการคัดเลือก Frame Image ได้ เช่น ส่งไปในทุกๆ 3 วินาที
 2. สร้าง Model Decision Image เลือกภาพที่ดีที่สุดจาก Frame Image เพื่อส่งให้ Model Prediction
@@ -9,7 +9,7 @@ Input VDO and Retrive Image
 
 <img width="2935" height="1288" alt="image" src="https://github.com/user-attachments/assets/35ce77b0-e3e1-4169-a3eb-2e06b5002b61" />
 
-#Data Flow
+# Data Flow
 วิดีโอ → Frame Extraction (≥30 FPS) → Normalization → CADe Model (Detection) → CADx Model (Diagnosis) → Real-Time Overlay (แสดงผลบนหน้าจอแพทย์) → Logging (บันทึกข้อมูล)
 
 ระบบมีส่วนประกอบหลักสามารถแบ่งออกได้เป็น 3 ส่วนหลัก คือ
@@ -20,7 +20,7 @@ Input VDO and Retrive Image
 
 <img width="1004" height="671" alt="image" src="https://github.com/user-attachments/assets/8b90aad5-ad29-4ce3-bf71-a99bdb032b50" />
 
-#Prediction
+# Prediction
 1. Train Model ด้วย Image และ Image label
 <img width="660" height="236" alt="image" src="https://github.com/user-attachments/assets/ebbad03b-f00e-4049-9153-69ee63004875" />
 
