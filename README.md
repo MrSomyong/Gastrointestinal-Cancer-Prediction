@@ -1,4 +1,4 @@
-<img width="660" height="236" alt="image" src="https://github.com/user-attachments/assets/46718089-05bf-4bd8-b739-e53589fc427b" /># Gastrointestinal-Cancer-Prediction
+# Gastrointestinal-Cancer-Prediction
 AI Detect Cancer in GI system, Gastrointestinal system
 
 #Main Idea Gastrointestinal Cancer Prediction คือ อะไร
